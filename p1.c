@@ -27,7 +27,7 @@ unsigned int p1(int max) {
 
 int main(int argc, char * argv[]) {
 	if (argc != 2) {
-		printf("Usage: p1 <int>");
+		printf("Usage: p1 <int>\n");
 		return 1;
 	}
 	printf("%d\n", p1(atoi(argv[1])));
