@@ -1,6 +1,6 @@
 import sys as _sys
 
-def even_fib_sum(upper_bound):
+def p2(upper_bound):
 	if upper_bound <= 2: return 0
 
 	buffer = [0, 2]
@@ -16,7 +16,7 @@ def even_fib_sum(upper_bound):
 
 if __name__ == '__main__':
 	if len(_sys.argv) == 2:
-		print(even_fib_sum(int(_sys.argv[1])))
+		print(p2(int(_sys.argv[1])))
 	else:
 		print('Usage: p2 <integer>')
 		_sys.exit(1)

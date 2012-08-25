@@ -1,5 +1,5 @@
 public class p2 {
-	public static int even_fib_sum(int upper_bound) {
+	public static int p2(int upper_bound) {
 		if (upper_bound <= 2) return 0;
 
 		int buffer[] = new int[] {0, 2},
@@ -17,7 +17,11 @@ public class p2 {
 	}
 
 	public static void main(String[] args) {
-		if (args.length == 1) System.out.println(even_fib_sum(Integer.parseInt(args[0])));
-		else System.out.println("Usage: p2 <integer>");
+		if (args.length == 1) {
+			System.out.println(p2(Integer.parseInt(args[0])));
+		} else {
+			System.out.println("Usage: p2 <integer>");
+			System.exit(1);
+		}
 	}
 }

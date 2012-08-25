@@ -1,4 +1,4 @@
-var even_fib_sum = function (upper_bound) {
+var p2 = function (upper_bound) {
 	if (upper_bound <= 2) {
 		return 0;
 	}
@@ -18,7 +18,8 @@ var even_fib_sum = function (upper_bound) {
 };
 
 if (arguments.length == 1) {
-	println(even_fib_sum(parseInt(arguments[0])));
+	println(p2(parseInt(arguments[0])));
 } else {
 	println('Usage: p2 <integer>');
+	exit(1);
 }
