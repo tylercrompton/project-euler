@@ -1,0 +1,1 @@
+Here, you will find my solutions to Project Euler problems. I will try to implement them in as many languages as possible. If you have any criticisms, please fork this repo, modify any files, and send a pull request. Please do not add any solutions.

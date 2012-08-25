@@ -1,1 +1,0 @@
-Here, you will find my solutions to Project Euler problems. I will likely only be using either Python or C. If you have any criticism, please fork this repo, modify any files, and send a pull request. Please do not add any solutions that I have not started on.
