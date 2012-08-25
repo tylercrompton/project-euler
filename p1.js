@@ -27,4 +27,5 @@ if (arguments.length === 1) {
 	println(p1(parseInt(arguments[0])));
 } else {
 	println('Usage: p1 <integer>');
+	exit(1)
 }
