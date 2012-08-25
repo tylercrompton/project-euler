@@ -26,10 +26,10 @@ unsigned int p1(int max) {
 }
 
 int main(int argc, char * argv[]) {
-	if (argc != 2) {
-		printf("Usage: p1 <int>\n");
-		return 1;
+	if (argc == 2) {
+		printf("%d\n", p1(atoi(argv[1])));
+		return 0;
 	}
-	printf("%d\n", p1(atoi(argv[1])));
-	return 0;
+	printf("Usage: p1 <integer>\n");
+	return 1;
 }

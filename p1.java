@@ -25,9 +25,11 @@ public class p1 {
 	}
 
 	public static void main(String[] args) {
-		if (args.length != 1)
-			System.out.println("Usage: p1 <int>");
-		else
+		if (args.length == 1) {
 			System.out.println(p1(Integer.parseInt(args[0])));
+		} else {
+			System.out.println("Usage: p1 <integer>");
+			System.exit(1);
+		}
 	}
 }

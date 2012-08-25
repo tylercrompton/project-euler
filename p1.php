@@ -28,6 +28,6 @@ function p1($max) {
 if (count($argv) == 2) {
 	echo p1(intval($argv[1])), "\n";
 } else {
-	echo "Usage: p1 <int>\n";
+	echo "Usage: p1 <integer>\n";
 	exit(1);
 }

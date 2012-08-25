@@ -27,5 +27,5 @@ if __name__ == '__main__':
 	if len(_sys.argv) == 2:
 		print(p1(int(_sys.argv[1])))
 	else:
-		print('Usage: p1 <int>', file=_sys.stderr)
+		print('Usage: p1 <integer>')
 		_sys.exit(1)
