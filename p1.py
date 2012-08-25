@@ -23,11 +23,9 @@ def p1(max):
 
 	return total
 
-def main():
-	if len(_sys.argv) != 2:
+if __name__ == '__main__':
+	if len(_sys.argv) == 2:
+		print(p1(int(_sys.argv[1])))
+	else:
 		print('Usage: p1 <int>', file=_sys.stderr)
 		_sys.exit(1)
-	print(p1(int(_sys.argv[1])))
-
-if __name__ == '__main__':
-	main()
