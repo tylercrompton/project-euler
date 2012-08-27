@@ -1,6 +1,6 @@
 <?php
 
-function p2($upper_bound) {
+function p002($upper_bound) {
 	if ($upper_bound <= 2) return 0;
 
 	$buffer = array(0, 2);
@@ -18,9 +18,9 @@ function p2($upper_bound) {
 }
 
 if (count($argv) == 2) {
-	echo p2(intval($argv[1])), "\n";
+	echo p002(intval($argv[1])), "\n";
 } else {
-	echo "Usage: p2 <integer>\n";
+	echo "Usage: p002 <integer>\n";
 	exit(1);
 }
 

@@ -1,7 +1,7 @@
 import math as _math
 import sys as _sys
 
-def p4(digit_count):
+def p004(digit_count):
 	temp = str(int('9' * digit_count) ** 2)
 	temp = str(int(temp[:len(temp) // 2]) - 1)
 	number = int(temp + ''.join(reversed(temp)))
@@ -19,7 +19,7 @@ def p4(digit_count):
 
 if __name__ == '__main__':
 	if len(_sys.argv) == 2:
-		print(p4(int(_sys.argv[1])))
+		print(p004(int(_sys.argv[1])))
 	else:
-		print('Usage: p4 <integer>')
+		print('Usage: p004 <integer>')
 		_sys.exit(1)

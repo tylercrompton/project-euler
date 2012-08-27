@@ -3,7 +3,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-long long int p3(long long int number) {
+long long int p003(long long int number) {
 	if (number == 0) return LLONG_MAX;
 
 	int i = 0;
@@ -22,9 +22,9 @@ long long int p3(long long int number) {
 
 int main(int argc, char * argv[]) {
 	if (argc == 2) {
-		printf("%lld\n", p3(atoll(argv[1])));
+		printf("%lld\n", p003(atoll(argv[1])));
 	} else {
-		printf("Usage: p3 <integer>\n");
+		printf("Usage: p003 <integer>\n");
 		return 1;
 	}
 }

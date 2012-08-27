@@ -2,7 +2,7 @@ from itertools import repeat as _repeat
 from math import ceil as _ceil
 import sys as _sys
 
-def p10(ceiling):
+def p010(ceiling):
 	numbers = list(range(2, ceiling))
 	i = 0
 	while i < ceiling - 2:
@@ -15,7 +15,7 @@ def p10(ceiling):
 
 if __name__ == '__main__':
 	if len(_sys.argv) == 2:
-		print(p10(int(_sys.argv[1])))
+		print(p010(int(_sys.argv[1])))
 	else:
-		print('Usage: p10 <integer>')
+		print('Usage: p010 <integer>')
 		_sys.exit(1)

@@ -18,7 +18,7 @@ def factor(number):
 			factored = True
 	return factors
 
-def p5(lower_bound, upper_bound):
+def p005(lower_bound, upper_bound):
 	factors = _Counter()
 	for i in range(lower_bound, upper_bound + 1):
 		for multiple, count in _Counter(factor(i)).items():
@@ -28,7 +28,7 @@ def p5(lower_bound, upper_bound):
 
 if __name__ == '__main__':
 	if len(_sys.argv) == 3:
-		print(p5(int(_sys.argv[1]), int(_sys.argv[2])))
+		print(p005(int(_sys.argv[1]), int(_sys.argv[2])))
 	else:
-		print('Usage: p5 <integer> <integer>')
+		print('Usage: p005 <integer> <integer>')
 		_sys.exit(1)

@@ -1,6 +1,6 @@
 import sys as _sys
 
-def p1(max):
+def p001(max):
 	i = 0
 	total = 0
 
@@ -25,7 +25,7 @@ def p1(max):
 
 if __name__ == '__main__':
 	if len(_sys.argv) == 2:
-		print(p1(int(_sys.argv[1])))
+		print(p001(int(_sys.argv[1])))
 	else:
-		print('Usage: p1 <integer>')
+		print('Usage: p001 <integer>')
 		_sys.exit(1)

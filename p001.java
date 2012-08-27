@@ -1,5 +1,5 @@
-public class p1 {
-	public static int p1(int max) {
+public class p001 {
+	public static int p001(int max) {
 		int i = 0,
 			total = 0;
 
@@ -26,9 +26,9 @@ public class p1 {
 
 	public static void main(String[] args) {
 		if (args.length == 1) {
-			System.out.println(p1(Integer.parseInt(args[0])));
+			System.out.println(p001(Integer.parseInt(args[0])));
 		} else {
-			System.out.println("Usage: p1 <integer>");
+			System.out.println("Usage: p001 <integer>");
 			System.exit(1);
 		}
 	}

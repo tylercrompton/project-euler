@@ -1,6 +1,6 @@
 <?php
 
-function p3($number) {
+function p003($number) {
 	if ($number == 0) return Infinity;
 
 	$i = 0;
@@ -18,9 +18,9 @@ function p3($number) {
 }
 
 if (count($argv) == 2) {
-	echo p3(intval($argv[1])), "\n";
+	echo p003(intval($argv[1])), "\n";
 } else {
-	echo "Usage: p3 <integer>\n";
+	echo "Usage: p003 <integer>\n";
 	exit(1);
 }
 

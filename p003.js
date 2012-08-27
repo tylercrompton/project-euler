@@ -1,4 +1,4 @@
-var p3 = function (number) {
+var p003 = function (number) {
 	if (number === 0) return Infinity;
 
 	var i = 2,
@@ -16,8 +16,8 @@ var p3 = function (number) {
 }
 
 if (arguments.length === 1) {
-	println(p3(parseInt(arguments[0])));
+	println(p003(parseInt(arguments[0])));
 } else {
-	println('Usage: p3 <integer>');
+	println('Usage: p003 <integer>');
 	exit(1);
 }

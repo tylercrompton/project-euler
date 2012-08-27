@@ -9,7 +9,7 @@ def primes():
 			primes.append(i)
 		i += 1
 
-def p6(n):
+def p007(n):
 	prime_generator = primes()
 	for i in range(n - 1):
 		next(prime_generator)
@@ -17,7 +17,7 @@ def p6(n):
 
 if __name__ == '__main__':
 	if len(_sys.argv) == 2:
-		print(p6(int(_sys.argv[1])))
+		print(p007(int(_sys.argv[1])))
 	else:
-		print('Usage: p7 <integer>')
+		print('Usage: p007 <integer>')
 		_sys.exit(1)

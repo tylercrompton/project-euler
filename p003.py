@@ -1,7 +1,7 @@
 import math as _math
 import sys as _sys
 
-def p3(number):
+def p003(number):
 	if number == 0: return float('inf')
 
 	factored = False
@@ -15,7 +15,7 @@ def p3(number):
 
 if __name__ == '__main__':
 	if len(_sys.argv) == 2:
-		print(p3(int(_sys.argv[1])))
+		print(p003(int(_sys.argv[1])))
 	else:
-		print('Usage: p3 <integer>')
+		print('Usage: p003 <integer>')
 		_sys.exit(1)

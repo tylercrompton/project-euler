@@ -1,4 +1,4 @@
-var p2 = function (upper_bound) {
+var p002 = function (upper_bound) {
 	if (upper_bound <= 2) {
 		return 0;
 	}
@@ -18,8 +18,8 @@ var p2 = function (upper_bound) {
 };
 
 if (arguments.length == 1) {
-	println(p2(parseInt(arguments[0])));
+	println(p002(parseInt(arguments[0])));
 } else {
-	println('Usage: p2 <integer>');
+	println('Usage: p002 <integer>');
 	exit(1);
 }

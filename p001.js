@@ -1,7 +1,5 @@
-#include <stdio.h>
-
-unsigned int p1(int max) {
-	unsigned int i = 0,
+var p001 = function (max) {
+	var i = 0,
 		total = 0;
 
 	while (i < max) {
@@ -25,11 +23,9 @@ unsigned int p1(int max) {
 	return total;
 }
 
-int main(int argc, char * argv[]) {
-	if (argc == 2) {
-		printf("%d\n", p1(atoi(argv[1])));
-		return 0;
-	}
-	printf("Usage: p1 <integer>\n");
-	return 1;
+if (arguments.length === 1) {
+	println(p001(parseInt(arguments[0])));
+} else {
+	println('Usage: p001 <integer>');
+	exit(1)
 }
