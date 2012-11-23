@@ -1,4 +1,6 @@
 var p002 = function (upper_bound) {
+	'use strict';
+
 	if (upper_bound <= 2) {
 		return 0;
 	}

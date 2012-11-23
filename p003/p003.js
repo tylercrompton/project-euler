@@ -1,4 +1,6 @@
 var p003 = function (number) {
+	'use strict';
+
 	if (number === 0) return Infinity;
 
 	var i = 2,

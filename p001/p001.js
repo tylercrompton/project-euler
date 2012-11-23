@@ -1,4 +1,6 @@
 var p001 = function (max) {
+	'use strict';
+
 	var i = 0,
 		total = 0;
 
@@ -27,5 +29,5 @@ if (arguments.length === 1) {
 	println(p001(parseInt(arguments[0])));
 } else {
 	println('Usage: p001 <integer>');
-	exit(1)
+	exit(1);
 }
