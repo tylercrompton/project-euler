@@ -23,7 +23,7 @@ def p001(max)
 		i += 15
 	end
 
-	return total
+	total
 end
 
 if __FILE__ == $0
